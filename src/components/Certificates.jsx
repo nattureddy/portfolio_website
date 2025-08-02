@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { ReactTyped } from "react-typed";
-import { FaExternalLinkAlt } from "react-icons/fa";
 import MLcImg from "../Certificatephotos/ml_courseediglobe.png";
 import MLiImg from "../Certificatephotos/ml_internediglobe.png";
 import G1Img from "../Certificatephotos/googleC1.png";
