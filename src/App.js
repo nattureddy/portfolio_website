@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Sidebar from "./components/Sidebar";
+import MainContent from "./components/MainContent";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="relative min-h-screen">
+      {/* ✅ Background Layer */}
+      <div
+        className="fixed inset-0 -z-10"
+        style={{
+          backgroundImage: "url('/background14.jpg')",
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "center",
+        }}
+      ></div>
+
+      {/* ✅ Page Content */}
+      <div className="flex flex-col md:flex-row">
+  {/* Sidebar */}
+  <div className="w-full md:w-1/4 md:fixed md:h-full">
+    <Sidebar />
+  </div>
+
+          <div className="w-full md:ml-[25%] md:w-3/4">
+    <MainContent />
+    <Footer />
+  </div>
+</div>
     </div>
   );
 }
-
 export default App;
