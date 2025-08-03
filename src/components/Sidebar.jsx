@@ -14,12 +14,12 @@ function Sidebar() {
         <img
           src="/profile.JPG"
           alt="Profile"
-          className="w-48 h-56 rounded-lg border-4 border-purple-500 shadow-lg object-cover"
+          className="w-48 h-56 rounded-lg border-4 border-gold shadow-lg object-cover"
         />
 
         {/* Name & Role */}
         <h1 className="text-2xl font-bold mt-4 text-white">Anupala Sanketh Reddy</h1>
-        <p className="text-lg text-gray-200">AI & ML Enthusiast</p>
+        <p className="text-lg text-gray-300">AI & ML Enthusiast</p>
 
         {/* Social Links */}
         <div className="flex gap-4 mt-6">
@@ -27,7 +27,7 @@ function Sidebar() {
             href="https://github.com/nattureddy"
             target="_blank"
             rel="noreferrer"
-            className="text-white text-xl hover:text-purple-400 transition"
+            className="text-white text-xl hover:text-gold transition"
           >
             <FaGithub />
           </a>
@@ -35,25 +35,25 @@ function Sidebar() {
             href="https://linkedin.com/in/sanketh-reddy-667b062a4"
             target="_blank"
             rel="noreferrer"
-            className="text-white text-xl hover:text-purple-400 transition"
+            className="text-white text-xl hover:text-gold transition"
           >
             <FaLinkedin />
           </a>
           <a
             href="mailto:sankethreddyanupala@gmail.com"
-            className="text-white text-xl hover:text-purple-400 transition"
+            className="text-white text-xl hover:text-gold transition"
           >
             <FaEnvelope />
           </a>
         </div>
 
-        {/* Resume Button */}
+
         <a
           href="/Anupala_Sanketh_Reddy_resume.pdf"
           download
-          className="mt-6 bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-full shadow-md transition"
+          className="mt-6 bg-gold hover:bg-green-700 text-black px-4 py-2 font-semibold rounded-full shadow-md transition"
         >
-          Download Resume
+          Projects
         </a>
       </div>
     </div>

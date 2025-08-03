@@ -7,19 +7,19 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
         {/* Navigation Links */}
         <div className="flex flex-wrap gap-6 text-sm justify-center">
-          <a href="#hero" className="hover:text-purple-400 transition">
+          <a href="#hero" className="hover:text-green-400 transition">
             Home
           </a>
-          <a href="#projects" className="hover:text-purple-400 transition">
+          <a href="#projects" className="hover:text-green-400 transition">
             Projects
           </a>
-          <a href="#skills" className="hover:text-purple-400 transition">
+          <a href="#skills" className="hover:text-green-400 transition">
             Skills
           </a>
-          <a href="#certificates" className="hover:text-purple-400 transition">
+          <a href="#certificates" className="hover:text-green-400 transition">
             Certificates
           </a>
-          <a href="#contact" className="hover:text-purple-400 transition">
+          <a href="#contact" className="hover:text-green-400 transition">
             Contact
           </a>
         </div>
@@ -28,7 +28,7 @@ export default function Footer() {
         <div className="flex gap-5 text-xl">
           <a
             href="mailto:sankethreddyanupala@gmail.com"
-            className="hover:text-purple-400 transition"
+            className="hover:text-gold transition"
           >
             <FaEnvelope />
           </a>
@@ -36,7 +36,7 @@ export default function Footer() {
             href="https://github.com/nattureddy"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-purple-400 transition"
+            className="hover:text-gold transition"
           >
             <FaGithub />
           </a>
@@ -44,7 +44,7 @@ export default function Footer() {
             href="https://linkedin.com/in/sanketh-reddy-667b062a4"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-purple-400 transition"
+            className="hover:text-gold transition"
           >
             <FaLinkedin />
           </a>
@@ -56,7 +56,7 @@ export default function Footer() {
 
       {/* Copyright */}
       <p className="text-center text-gray-400 text-sm">
-        © {new Date().getFullYear()} <span className="text-purple-400 font-semibold">Anupala Sanketh Reddy</span>. All rights reserved.
+        © {new Date().getFullYear()} <span className="text-gold font-semibold">Anupala Sanketh Reddy</span>. All rights reserved.
       </p>
     </footer>
   );

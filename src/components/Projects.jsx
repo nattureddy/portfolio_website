@@ -84,7 +84,7 @@ export default function Projects() {
         className="mb-12"
       >
        <h1 className="text-5xl md:text-6xl font-extrabold mb-6 drop-shadow-lg">
-        My  <span className="text-purple-400">Projects</span>
+        My  <span className="text-gold">Projects</span>
       </h1>
         <ReactTyped
           strings={[
@@ -95,7 +95,7 @@ export default function Projects() {
           typeSpeed={50}
           backSpeed={30}
           loop
-          className="text-3xl md:text-4xl text-purple-300 font-semibold drop-shadow-md mb-6"
+          className="text-3xl md:text-2xl text-gold font-semi-bold drop-shadow-md mb-6"
         />
       </motion.div>
 
@@ -109,7 +109,7 @@ export default function Projects() {
             whileInView={{ opacity: 1, y: 0 }}
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.4, delay: index * 0.1 }}
-            className="bg-black/60 rounded-xl shadow-lg hover:shadow-purple-500/40 transition overflow-hidden"
+            className="bg-black/60 rounded-xl shadow-lg hover:shadow-gold transition overflow-hidden"
           >
             {/* Project Image */}
             <img
@@ -123,7 +123,7 @@ export default function Projects() {
 
             {/* Project Details */}
             <div className="p-6">
-              <h3 className="text-2xl font-semibold mb-3 text-purple-300">
+              <h3 className="text-2xl font-semibold mb-3 text-gold">
                 {project.title}
               </h3>
               <p className="text-gray-300 mb-4">{project.description}</p>
@@ -136,7 +136,7 @@ export default function Projects() {
                   href={project.github}
                   target="_blank"
                   rel="noreferrer"
-                  className="flex items-center gap-2 bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded-full text-white transition"
+                  className="flex items-center gap-2 bg-gold hover:bg-green-700 px-4 py-2 rounded-full text-black transition"
                 >
                   <FaGithub /> Code
                 </a>

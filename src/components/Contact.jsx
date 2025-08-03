@@ -14,16 +14,16 @@ export default function Contact() {
         className="mb-10"
       >
         <h1 className="text-5xl md:text-6xl font-extrabold mb-6 drop-shadow-lg">
-        Contact  <span className="text-purple-400">Me</span>
+        Contact  <span className="text-gold">Me</span>
       </h1>
       <ReactTyped
                         strings={[
-                          "Get in touch with me for opportunities, collaborations, or just to say hi!",
+                          "Get in touch with me or just say hi! to connect",
                         ]}
                         typeSpeed={50}
                         backSpeed={30}
                         loop
-                        className="text-3xl md:text-4xl text-purple-300 font-semibold drop-shadow-md mb-6"
+                        className="text-3xl md:text-2xl text-gold font-semi-bold drop-shadow-md mb-6"
                       />
       </motion.div>
 
@@ -35,34 +35,34 @@ export default function Contact() {
         className="space-y-5 text-lg"
       >
         <div className="flex items-center gap-4">
-          <FaEnvelope className="text-purple-400 text-2xl" />
+          <FaEnvelope className="text-gold text-2xl" />
           <a
             href="mailto:sankethreddyanupala@gmail.com"
-            className="hover:text-purple-400 transition"
+            className="hover:text-green-400 transition"
           >
             sankethreddyanupala@gmail.com
           </a>
         </div>
 
         <div className="flex items-center gap-4">
-          <FaGithub className="text-purple-400 text-2xl" />
+          <FaGithub className="text-gold text-2xl" />
           <a
             href="https://github.com/nattureddy"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-purple-400 transition"
+            className="hover:text-green-400 transition"
           >
             github.com/nattureddy
           </a>
         </div>
 
         <div className="flex items-center gap-4">
-          <FaLinkedin className="text-purple-400 text-2xl" />
+          <FaLinkedin className="text-gold text-2xl" />
           <a
             href="https://linkedin.com/in/sanketh-reddy-667b062a4"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-purple-400 transition"
+            className="hover:text-green-400 transition"
           >
             linkedin.com/in/sanketh-reddy-667b062a4
           </a>
@@ -79,7 +79,7 @@ export default function Contact() {
         <a
           href="/Anupala_Sanketh_Reddy_resume.pdf"
           download
-          className="flex items-center gap-2 bg-purple-600 hover:bg-purple-700 px-5 py-3 rounded-full text-white font-semibold transition w-fit"
+          className="flex items-center gap-2 bg-gold hover:bg-green-700 px-5 py-3 rounded-full text-black font-semibold transition w-fit"
         >
           <FaFileDownload /> Download Resume
         </a>

@@ -65,7 +65,7 @@ const skills = [
         transition={{ duration: 0.6 }}
       >
         <h1 className="text-5xl md:text-6xl font-extrabold mb-6 drop-shadow-lg">
-        My  <span className="text-purple-400">Skills</span>
+        My  <span className="text-gold">Skills</span>
       </h1>
         <ReactTyped
                   strings={[
@@ -74,7 +74,7 @@ const skills = [
                   typeSpeed={50}
                   backSpeed={30}
                   loop
-                  className="text-3xl md:text-4xl text-purple-300 font-semibold drop-shadow-md mb-6"
+                  className="text-3xl md:text-2xl text-gold font-semi-bold drop-shadow-md mb-6"
                 />
       </motion.div>
 
@@ -88,7 +88,7 @@ const skills = [
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.4, delay: index * 0.15 }}
             whileHover={{ scale: 1.05 }}
-            className="bg-black/50 p-6 rounded-xl shadow-lg hover:shadow-purple-500/40 transition text-center"
+            className="bg-black/50 p-6 rounded-xl shadow-lg hover:shadow-gold transition text-center"
           >
             <div className="flex justify-center mb-4">{skill.icon}</div>
             <h3 className="text-xl font-semibold mb-2">{skill.name}</h3>
